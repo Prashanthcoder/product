@@ -175,59 +175,7 @@ Contributions and suggestions are welcome! Feel free to open an issue or submit 
 
 ## 👤 Author
 
-**Prashanth** — [GitHub @Prashanthcoder](https://github.com/Prashanthcoder)1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Prashanthcoder/product.git
-   cd product
-   ```
-
-2. **Import the project** into your IDE as a Dynamic Web Project (Eclipse) or a Maven/Web project (IntelliJ).
-
-3. **Deploy to Tomcat**
-   - Add the project to your Tomcat server instance in the IDE, or
-   - Build a `.war` file and drop it into Tomcat's `webapps/` directory.
-
-4. **Start Tomcat** and navigate to:
-   ```
-   http://localhost:8080/product/
-   ```
-
-5. Enter two numbers and submit the form to see the multiplication result returned by the servlet.
-
----
-
-## 📂 Project Structure
-
-```
-product/
-├── src/
-│   └── main/
-│       └── java/
-│           └── MultiplicationServlet.java   # Core servlet logic
-├── WebContent/
-│   ├── index.html                           # Frontend form
-│   └── WEB-INF/
-│       └── web.xml                          # Servlet mapping configuration
-└── README.md
-```
-
----
-
-## 📚 Learning Outcomes
-
-- Understand the **browser ↔ server** communication model
-- Learn how Tomcat manages the **servlet lifecycle**
-- See how servlet classes are **loaded and instantiated** on demand
-- Build and test a simple **server-side computation** using servlets
-
----
-
-## 🤝 Contributing
-
+**Prashanth** — [GitHub @Prashanthcoder](https://github.com/Prashanthcoder)1. 
 Contributions and suggestions are welcome! Feel free to open an issue or submit a pull request.
 
 ---
-
-## 👤 Author
-
-**Prashanth** — [GitHub @Prashanthcoder](https://github.com/Prashanthcoder)
